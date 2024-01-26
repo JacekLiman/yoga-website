@@ -16,7 +16,7 @@ const Header = () => {
       })
   },[])
   return (
-    <header className={`${isScrolling  ? "top-0":"top-5"}  fixed w-full left-0 transition-all duration-500`}>
+    <header className={`${isScrolling  ? "top-0":"top-5"}  fixed w-full left-0 transition-all duration-500 z-50`}>
       <div className="p-3 lg:w-9/12 w-11/12 mx-auto flex justify-between bg-white rounded-md relative shadow-xl">
         <div className="flex items-center gap-14">
           <div>

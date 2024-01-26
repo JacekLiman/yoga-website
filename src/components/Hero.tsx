@@ -2,7 +2,7 @@ import Person from "../assets/img/hero/guy.png";
 
 const Hero = () => {
   return (
-    <section className="lg:bg-circle bg-no-repeat bg-right-top h-[2000px]" >
+    <section className="lg:bg-circle bg-no-repeat bg-right-top" >
       <div className="container mx-auto  ">
         <div className="pt-40 lg:pt-0 grid grid-cols-1 lg:grid-cols-2 min-h-[750px] gap-10 lg:gap-0">
           <div className="flex flex-col justify-center gap-5">
