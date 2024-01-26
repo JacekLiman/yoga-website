@@ -1,5 +1,11 @@
+import Hero from "./components/Hero";
+
 function App() {
-  return <div className="bg-red-500 text-3xl">rfrfrfr</div>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
 
 export default App;

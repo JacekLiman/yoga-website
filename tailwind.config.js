@@ -48,7 +48,6 @@ export default {
         section: "#F5F6F9",
         shape: "#E8EEF0",
         white: "#FFFFFF",
-        transparent: "transparent",
       },
       backgroundImage: {
         circle: "url('/src/assets/img/hero/bg.png')",
