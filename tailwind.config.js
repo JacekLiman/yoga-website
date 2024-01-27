@@ -8,7 +8,7 @@ export default {
     container: {
       padding: {
         DEFAULT: "1rem",
-        lg: "0",
+       
       },
     },
     screens: {
