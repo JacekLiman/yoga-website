@@ -9,8 +9,8 @@ const Features = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
-      <div className="container mx-auto bg-slate-50">
-        <div className="py-4">
+      <div className="container mx-auto ">
+        <div className=" bg-section">
           <div className="rounded-xl flex justify-center items-center min-h-[300px] lg:min-h-[600px] bg-video bg-no-repeat bg-center bg-cover">
             <button
               onClick={() => setIsOpen(true)}
@@ -19,7 +19,7 @@ const Features = () => {
               <BsPlayCircleFill />
             </button>
           </div>
-          <div className="my-10 lg:my-14 grid grid-cols-1 lg:grid-cols-2">
+          <div className="my-10 lg:my-14 grid grid-cols-1 lg:grid-cols-2 px-4 py-6">
             <div>
               <div className="w-9 h-[2px] lg:w-16 bg-orange mb-4"></div>
               <h2 className="h2">

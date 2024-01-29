@@ -6,7 +6,7 @@ const Courses = () => {
   return (
     <section>
       <div className="container mx-auto">
-        <div className="py-10 lg:py-14">
+        <div className="py-10 ">
           <h2 className="h3 font-bold text-center">Popular Courses</h2>
           <p className="max-w-[550px] mx-auto text-center mt-6 mb-12">
             Practice anywhere, anytime. Explore a new way to exercise and learn
