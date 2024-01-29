@@ -1,4 +1,5 @@
 import Cards from "./components/Cards";
+import Contact from "./components/Contact";
 import Courses from "./components/Courses";
 import Facts from "./components/Facts";
 import Features from "./components/Features";
@@ -18,6 +19,7 @@ function App() {
       <Courses/>
       <Pricing/>
       <Newsletter/>
+      <Contact/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { pricing } from "../data";
-import ClassItems from "./ClassItems";
+import PricingItems from "./PricingItems";
 
 const Pricing = () => {
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -30,7 +30,7 @@ const Pricing = () => {
                     Discover your favourite class!
                   </p>
                   <div className="px-5">
-                    <ClassItems list={list} />
+                    <PricingItems list={list} />
                     <button className={`${  idx===currentIdx ? " bg-orange text-white":"bg-white text-orange"}  relative font-semibold w-full p-3 mt-8 mb-5 border border-orange transition-all`}>
                       {buttonText} <div className="bg-orange-200 flex justify-center items-center absolute top-0 right-0 h-full aspect-[1/1] text-white">{buttonIcon}</div>
                     </button>

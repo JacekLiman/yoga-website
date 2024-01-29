@@ -1,8 +1,8 @@
-type ClassItemsProps = {
+type PricingItemsProps = {
   list: { name: string; icon: JSX.Element }[];
 };
 
-const ClassItems = ({ list }: ClassItemsProps) => {
+const PricingItems = ({ list }: PricingItemsProps) => {
   return (
     <ul className="space-y-2">
       {list.map((item, idx) => {
@@ -16,4 +16,4 @@ const ClassItems = ({ list }: ClassItemsProps) => {
   );
 };
 
-export default ClassItems;
+export default PricingItems;
