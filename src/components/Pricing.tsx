@@ -17,7 +17,7 @@ const Pricing = () => {
           </div>
           <ul className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {pricing.map((item, idx) => {
-              const { title, price, list, buttonIcon, buttonText, delay } =
+              const { title, price, list, buttonIcon, buttonText } =
                 item;
                 
               return (

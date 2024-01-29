@@ -4,6 +4,7 @@ import Facts from "./components/Facts";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Newsletter from "./components/Newsletter";
 import Pricing from "./components/Pricing";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Features/>
       <Courses/>
       <Pricing/>
+      <Newsletter/>
     </div>
   );
 }
