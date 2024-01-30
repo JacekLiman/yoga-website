@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Cards from "./components/Cards";
 import Contact from "./components/Contact";
 import Courses from "./components/Courses";
@@ -9,7 +11,18 @@ import Hero from "./components/Hero";
 import Newsletter from "./components/Newsletter";
 import Pricing from "./components/Pricing";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 function App() {
+
+  useEffect(()=>{
+    Aos.init({
+      duration:1800,
+      offset:100
+    })
+  },[])
+
   return (
     <div>
       <Header/>

@@ -4,7 +4,7 @@ import Img3 from "../assets/img/cards/card-3.png";
 
 const Cards = () => {
   return (
-    <section className="bg-cardsBg -mt-10">
+    <section data-aos="fade-up" data-aos-delay="800" data-aos-duration="2000" className="bg-cardsBg -mt-10">
       <div className="container mx-auto relative">
         <div className="min-h-[820px] lg:min-h-[260px] ">
           <div className="absolute -top-20 left-0 w-full grid grid-cols-1  lg:grid-cols-4 gap-5 p-3 lg:p-0">
